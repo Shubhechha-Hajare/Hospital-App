@@ -1,0 +1,73 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://plus.unsplash.com/premium_photo-1726862913323-d419c847ea07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: rgba(0, 76, 153, 0.95);
+        }
+
+        .navbar-brand,
+        .nav-link,
+        .navbar-nav .nav-link.active {
+            color: white !important;
+            font-size: 500;
+        }
+
+        .hero-section {
+            background: rgba(170, 203, 183, 0.85);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        .specialities, .appointment-section {
+            padding: 60px 0;
+            background-color: rgba(212, 233, 152, 0.9);
+        }
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+            border: 1px solid rgba(0, 0, 0, 0.392);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card:nth-child(1):hover { background-color: #e0f7fa; }
+        .card:nth-child(2):hover { background-color: #e8f5e9; }
+        .card:nth-child(3):hover { background-color: #f3e5f5; }
+        .card:nth-child(4):hover { background-color: #fff3e0; }
+        .card:nth-child(5):hover { background-color: #ede7f6; }
+        .card:nth-child(6):hover { background-color: #fce4ec; }
+        .card:nth-child(7):hover { background-color: #e1f5fe; }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    
